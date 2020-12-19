@@ -71,7 +71,7 @@ module.exports = {
         plays: plays,
         category: category,
         letter: letter,
-        question: category === 'country' ? 'podaj państwo na literę ' + letter : 'podaj miasto w Polsce na literę ' + letter,
+        question: category === 'country' ? `podaj państwo na literę ${letter}` : `podaj miasto w Polsce na literę ${letter}`,
         ongoing: true,
         createdAt: new Date(),
         endsOn: endsOn
